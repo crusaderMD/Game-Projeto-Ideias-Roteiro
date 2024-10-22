@@ -1,0 +1,144 @@
+/* Tema Escuro - Nobody */
+body {
+    background-color: #121212; /* Fundo escuro */
+    color: #e0e0e0; /* Texto claro */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #333333;
+}
+
+header p{
+    text-align: center
+}
+
+/* Links do Navegador */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #00bcd4; /* Azul-ciano vibrante */
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #03dac5; /* Hover com contraste mais claro */
+    text-decoration: underline;
+}
+
+/* Estilos básicos para parágrafos */
+p {
+    font-size: 16px; /* Tamanho da fonte */
+    line-height: 1.6; /* Espaçamento entre as linhas */
+    color: #e0e0e0; /* Cor do texto */
+    margin-bottom: 20px; /* Espaço inferior entre parágrafos */
+    text-align: justify; /* Justificação do texto */
+    font-family: 'Arial', sans-serif; /* Fonte */
+    max-width: 100%;
+}
+
+/* Estilo para a div */
+div {
+    background-color: #1e1e1e; /* Cor de fundo da div */
+    border: 1px solid #333333; /* Bordas da div */
+    border-radius: 0px; /* Bordas arredondadas da div */
+    padding: 20px; /* Espaçamento interno da div */
+    margin-bottom: 20px; /* Espaço abaixo da div */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Sombra da div */
+    max-width: 100%; /* Largura máxima da div */
+    color: #e0e0e0; /* Cor do texto dentro da div */
+}
+
+/* Estilos para parágrafos dentro da div */
+div p {
+    padding: 10px; /* Espaçamento interno do parágrafo */
+    margin: 10px 0; /* Margem acima e abaixo do parágrafo */
+    color: #e0e0e0; /* Cor do texto dentro do parágrafo */
+    
+}
+
+div a {
+    color: #86d1dd; /* Azul-ciano vibrante */
+    text-decoration: none;
+    font-size: 18px;
+}
+div a:hover {
+    color: #009e8e; /* Hover com contraste mais claro */
+    text-decoration: underline;
+}
+
+.container{
+    margin-left: 15px;
+}
+
+/* Artigo */
+article {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Posiciona acima da palavra */
+    left: 50%;
+    margin-left: -80px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%; /* Posição da seta */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+footer p{
+    text-align: center;
+}
